@@ -32,11 +32,23 @@ MainWindow::MainWindow(QWidget *parent)
     ui->label_108->hide();
     ui->label_109->hide();
     ui->label_110->hide();
+    m_translator.load("/:translate_es_US.qm");
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+
+void MainWindow::changeEvent(QEvent *event)
+{
+    if (event->type() == QEvent::LanguageChange)
+    {
+        ui->retranslateUi(this);
+    }
+
+    QWidget::changeEvent(event);
 }
 
 void MainWindow::on_scanButton_clicked()
@@ -392,15 +404,32 @@ void MainWindow::on_scheduleScan_clicked()
 
 void MainWindow::on_advancedOptions_clicked()
 {
-    advancedOption* a = new advancedOption();
-    a->show();
-    a->setWindowTitle("Advanced options");
+    advancedOption* ad = new advancedOption();
+    ad->show();
+    ad->setWindowTitle("Advanced options");
 }
 
 
-void MainWindow::on_pushButton_21_clicked()
+
+void MainWindow::on_vieTrans_clicked()
 {
-    QTranslator translator;
-    translator.load(":/translation_vn.qm");
+    ui->label_100->hide();
+    ui->label_84->show();
+    ui->engTrans->show();
+    ui->vieTrans->hide();
+    m_translator.load(":/translate_vi_VN.qm");
+    m_App->installTranslator(&m_translator);
 }
+
+
+void MainWindow::on_engTrans_clicked()
+{
+    ui->label_100->show();
+    ui->label_84->hide();
+    ui->engTrans->hide();
+    ui->vieTrans->show();
+    m_translator.load(":/translate_es_US.qm");
+    m_App->installTranslator(&m_translator);
+}
+
 

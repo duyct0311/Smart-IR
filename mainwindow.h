@@ -2,6 +2,8 @@
 #define MAINWINDOW_H
 #include <QMainWindow>
 #include <QTimer>
+#include <QTranslator>
+#include <QGuiApplication>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -16,7 +18,8 @@ public:
 
 
 
-
+protected:
+    void changeEvent(QEvent *);
 
 public slots:
     void on_scanButton_clicked();
@@ -26,6 +29,8 @@ public slots:
 private:
     Ui::MainWindow *ui;
 public:
+    QGuiApplication *m_App;
+    QTranslator m_translator;
     QTimer* timer = NULL;
     int i = 0;
     QString data;
@@ -53,7 +58,8 @@ private slots:
     void on_pushButton_27_clicked();
     void on_scheduleScan_clicked();
     void on_advancedOptions_clicked();
-    void on_pushButton_21_clicked();
+    void on_vieTrans_clicked();
+    void on_engTrans_clicked();
 };
 
 

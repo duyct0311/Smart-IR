@@ -17,7 +17,8 @@ SOURCES += \
 HEADERS += \
     advancedoption.h \
     dialog.h \
-    mainwindow.h
+    mainwindow.h \
+    translator.h
 
 FORMS += \
     advancedoption.ui \
@@ -33,6 +34,8 @@ RESOURCES += \
     app.qrc
 
 DISTFILES += \
-    Images/magnifying.png
-TRANSLATIONS += translation_vn.ts /
-                translation_us.ts
+    Images/magnifying.png \
+    translate_es_US.ts \
+    translate_vi_VN.ts
+TRANSLATIONS +=     translate_es_US.ts \
+translate_vi_VN.ts

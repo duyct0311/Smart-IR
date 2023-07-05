@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1">
+<TS version="2.1" language="vi_VN">
 <context>
     <name>Dialog</name>
     <message>
@@ -11,37 +11,37 @@
     <message>
         <location filename="dialog.ui" line="56"/>
         <source>Area to scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Khu vực muốn quét</translation>
     </message>
     <message>
         <location filename="dialog.ui" line="76"/>
         <source>Quick Scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Quét nhanh</translation>
     </message>
     <message>
         <location filename="dialog.ui" line="96"/>
         <source>Full Scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Quét toàn bộ</translation>
     </message>
     <message>
         <location filename="dialog.ui" line="116"/>
         <source>Choose File</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Chọn file</translation>
     </message>
     <message>
         <location filename="dialog.ui" line="136"/>
         <source>Choose Folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Chọn thư mục</translation>
     </message>
     <message>
         <location filename="dialog.ui" line="156"/>
         <source>Interval (day):</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Khoảng thời gian (ngày):</translation>
     </message>
     <message>
         <location filename="dialog.ui" line="192"/>
         <source>Time:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thời gian</translation>
     </message>
     <message>
         <location filename="dialog.ui" line="228"/>
@@ -61,143 +61,148 @@
     <message>
         <location filename="dialog.ui" line="312"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hủy</translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
         <location filename="mainwindow.ui" line="14"/>
+        <source></source>
+        <translation></translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="14"/>
         <source>MainWindow</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">VNPT Smart IR 2023</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="149"/>
         <source>Choose File</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Chọn file</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="169"/>
         <source>Choose Folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Chọn thư mục</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="189"/>
         <source>Full Scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Quét toàn bộ</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="209"/>
         <source>Quick Scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Quét nhanh</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="231"/>
         <source>Area to scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Khu vực quét</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="253"/>
         <source>Scan options</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Các lựa chọn quét</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="309"/>
         <source>Time scan:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thời gian quét:</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="329"/>
         <source>Scanning:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Đang quét</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="349"/>
         <source>Scanned objects:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Đối tượng đã quét</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="369"/>
         <source>Malware detected:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mã độc đã phát hiện:</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="389"/>
         <source>Removed:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Loại bỏ</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="460"/>
-        <location filename="mainwindow.ui" line="2928"/>
+        <location filename="mainwindow.ui" line="2931"/>
         <source>Scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Quét</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="654"/>
         <source>Scheduler Scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lên kế hoạch quét</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="676"/>
         <source>Advanced options</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Các lựa chọn nâng cao</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="748"/>
         <source>Realtime report</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Báo cáo thời gian thực</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="768"/>
         <source>Scan report</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Báo cáo quét</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="788"/>
         <source>Restore backup file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Khôi phục file dự phòng</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="807"/>
         <location filename="mainwindow.ui" line="942"/>
         <location filename="mainwindow.ui" line="1197"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thời gian</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="905"/>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Xuất</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="961"/>
         <source>Object</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Đối tượng</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="980"/>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tên</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1015"/>
         <source>Technology</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Công nghệ</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1050"/>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Loại</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1069"/>
         <source>Action</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Hành động</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1104"/>
         <source>Severity</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Độ nghiêm trọng</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1122"/>
@@ -211,14 +216,14 @@
         <location filename="mainwindow.ui" line="1347"/>
         <location filename="mainwindow.ui" line="1510"/>
         <source>1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">1</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1158"/>
         <location filename="mainwindow.ui" line="1365"/>
         <location filename="mainwindow.ui" line="1528"/>
         <source>2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">2</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1176"/>
@@ -230,229 +235,229 @@
     <message>
         <location filename="mainwindow.ui" line="1216"/>
         <source>Area scan</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Khu vực quét</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1235"/>
         <source>Total scanned file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Số file đã quét</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1254"/>
         <source>Detected</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Phát hiện</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1273"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Loại bỏ</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1292"/>
         <source>Time scanned</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thời gian quét</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1311"/>
         <source>Information</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thông tin </translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1417"/>
         <source>Backup time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thời gian lưu</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1436"/>
         <source>Infected by</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Nhiễm bởi</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1455"/>
         <source>File name</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tên file</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1474"/>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thư mục</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1568"/>
         <source>Khôi phục file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Khôi phục file</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1590"/>
         <source>Lưu file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lưu file</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1612"/>
         <source>Xóa file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Xóa file</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1658"/>
         <source>File Threat Protection</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bảo vệ mối đe dọa từ file</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1678"/>
         <source>File Threat Protection prevents infection of a computer&apos;s file system</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bảo vệ mối đe dọa từ file ngăn ngừa sự xâm nhập từ file hệ thống của máy tính</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1698"/>
         <source>Web Threat Protection</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bảo vệ mối đe dọa từ Web</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1718"/>
         <source>Protects users from phishing websites when surfing the Internet</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bảo vệ người dùng khỏi các trang web lừa đảo khi lướt Internet</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1738"/>
         <source>Mail Threat Protection</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bảo vệ mối đe dọa từ mail</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1758"/>
-        <source>Scans incoming and outgoing email messages vor viruses and other threats</source>
-        <translation type="unfinished"></translation>
+        <source>Scans incoming and outgoing email messages for viruses and other threats</source>
+        <translation type="unfinished">Quét các thư nhận và thư gửi đi để tìm ra virus và các mối nguy hại khác</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="1778"/>
         <location filename="mainwindow.ui" line="1908"/>
         <location filename="mainwindow.ui" line="1984"/>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tắt</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="2130"/>
         <source>Register VNPT Smart IR</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Đăng kí VNPT Smart IR</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="2150"/>
         <source>Email:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Email:</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="2170"/>
         <source>License:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Giấy phép</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="2190"/>
-        <location filename="mainwindow.ui" line="2314"/>
+        <location filename="mainwindow.ui" line="2317"/>
         <source>Server:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Máy chủ</translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="2210"/>
         <source>Proxy (if any):</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Đơn vị ủy quyền (nếu có)</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2294"/>
+        <location filename="mainwindow.ui" line="2297"/>
         <source>Port:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Cổng</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2369"/>
+        <location filename="mainwindow.ui" line="2372"/>
         <source>Register</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Đăng kí</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2392"/>
+        <location filename="mainwindow.ui" line="2395"/>
         <source>Smart IR license:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Giấy phép Smart IR</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2413"/>
+        <location filename="mainwindow.ui" line="2416"/>
         <source>Department:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Phòng ban</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2434"/>
+        <location filename="mainwindow.ui" line="2437"/>
         <source>Công ty Công nghệ thông tin VNPT / Trung tâm An toàn thông tin / Quản lý sản phẩm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Công ty Công nghệ thông tin VNPT / Trung tâm An toàn thông tin / Quản lý sản phẩm</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2456"/>
+        <location filename="mainwindow.ui" line="2459"/>
         <source>Edit license</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Chỉnh sửa giấy phép</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2477"/>
+        <location filename="mainwindow.ui" line="2480"/>
         <source>Database information</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thông tin về cơ sở dữ liệu</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2498"/>
+        <location filename="mainwindow.ui" line="2501"/>
         <source>Code: undefined</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Mã: không xác định</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2519"/>
+        <location filename="mainwindow.ui" line="2522"/>
         <source>Last update:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lần cập nhật cuối cùng</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2541"/>
-        <location filename="mainwindow.ui" line="2608"/>
+        <location filename="mainwindow.ui" line="2544"/>
+        <location filename="mainwindow.ui" line="2611"/>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Cập nhật</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2562"/>
+        <location filename="mainwindow.ui" line="2565"/>
         <source>Agent information</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thông tin đơn </translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2583"/>
+        <location filename="mainwindow.ui" line="2586"/>
         <source>Using Smart IR, you are continuously updated with the latest protection technologies from the VNPT server, ensuring the software with full power and the latest features</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sử dụng Smart IR, bạn được liên tục cập nhật mới công nghệ bảo mật mới nhất từ máy chủ VNPT, đảm bảo phần mềm có đầy đủ sức mạnh và các tính năng mới nhất</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2674"/>
+        <location filename="mainwindow.ui" line="2677"/>
         <source>UAC</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">UAC</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2695"/>
+        <location filename="mainwindow.ui" line="2698"/>
         <source>Anti Virus</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Chống virus</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2716"/>
+        <location filename="mainwindow.ui" line="2719"/>
         <source>Defender</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lớp bảo vệ</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2737"/>
+        <location filename="mainwindow.ui" line="2740"/>
         <source>Firewall</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tường lửa</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2758"/>
+        <location filename="mainwindow.ui" line="2761"/>
         <source>Ms17010</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ms17010</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2779"/>
+        <location filename="mainwindow.ui" line="2782"/>
         <source>Windows Update</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Cập nhật Windows</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2800"/>
+        <location filename="mainwindow.ui" line="2803"/>
         <source>WinrarCVE</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">WinrarCVE</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2824"/>
+        <location filename="mainwindow.ui" line="2827"/>
         <source>Device name:  ATTT-NCPT-02887
 Processor  Intel(R) Core(TM): i5-10400 CPU @ 2.90GHz   2.90 GHz
 Installed RAM:  8.00 GB (7.75 GB usable)
@@ -468,38 +473,48 @@ Experience:  Windows Feature Experience Pack 1000.22638.1000.0</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2860"/>
+        <location filename="mainwindow.ui" line="2863"/>
         <source>Policy</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Chính sách</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2882"/>
+        <location filename="mainwindow.ui" line="2885"/>
         <source>Device information</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thông tin thiết bị</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2904"/>
+        <location filename="mainwindow.ui" line="2907"/>
         <source>About VNPT Smart IR</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Về VNPT Smart IR</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2949"/>
+        <location filename="mainwindow.ui" line="2952"/>
         <source>Report</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Báo cáo</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="2970"/>
+        <location filename="mainwindow.ui" line="2973"/>
         <source>Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Giám sát</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3314"/>
+        <location filename="mainwindow.ui" line="3317"/>
         <source>License</source>
+        <translation type="unfinished">Giấy phép</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="3431"/>
+        <source>Informations and Policy</source>
+        <translation type="unfinished">Thông tin và chính sách</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="3635"/>
+        <source>VNPT Smart IR 2023</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="3428"/>
-        <source>Informations and Policy</source>
+        <location filename="mainwindow.ui" line="3656"/>
+        <source>VNPT Cyber Immunity - Better Secured, Greater Value</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -508,42 +523,42 @@ Experience:  Windows Feature Experience Pack 1000.22638.1000.0</source>
     <message>
         <location filename="advancedoption.ui" line="14"/>
         <source>MainWindow</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">VNPT Smart IR 2023</translation>
     </message>
     <message>
         <location filename="advancedoption.ui" line="34"/>
         <source>Startup with logon</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bắt đầu với tệp tin nhập</translation>
     </message>
     <message>
         <location filename="advancedoption.ui" line="54"/>
         <source>Exclusions</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Ngăn chặn</translation>
     </message>
     <message>
         <location filename="advancedoption.ui" line="74"/>
         <source>Settings for detected threats and scan exclusions</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thiết lập cho các mối nguy hại được phát hiện và quét loại trừ</translation>
     </message>
     <message>
         <location filename="advancedoption.ui" line="110"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Lưu</translation>
     </message>
     <message>
         <location filename="advancedoption.ui" line="130"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">File</translation>
     </message>
     <message>
         <location filename="advancedoption.ui" line="151"/>
         <source>Folder</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Thư mục</translation>
     </message>
     <message>
         <location filename="advancedoption.ui" line="189"/>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Tắt</translation>
     </message>
 </context>
 </TS>

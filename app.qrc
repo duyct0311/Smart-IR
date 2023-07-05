@@ -1,8 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>Images/smartit.png</file>
-        <file>C:/Users/pc/Desktop/Untitled.png</file>
-        <file>C:/Users/pc/Music/magnifying.png</file>
         <file>Images/magnifying.png</file>
         <file>Images/report.png</file>
         <file>Images/monitor.png</file>
@@ -16,7 +14,6 @@
         <file>Images/Vector1.png</file>
         <file>Images/Vector2.png</file>
         <file>Images/Vector3.png</file>
-        <file>C:/Users/pc/Downloads/scan.png</file>
         <file>Images/scan.png</file>
         <file>Images/blueReport.png</file>
         <file>Images/Group 99.png</file>
@@ -24,5 +21,7 @@
         <file>Images/Rectangle 37.png</file>
         <file>Images/eng.png</file>
         <file>Images/vie.png</file>
+        <file>translate_vi_VN.qm</file>
+        <file>translate_es_US.qm</file>
     </qresource>
 </RCC>
